@@ -1,0 +1,48 @@
+/* Total del documento*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #181a1b;
+    color: white;
+}
+
+/* barra de navegacion */
+
+header {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+}
+
+.barraNavegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    color: #00c3ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.links-barraNav {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.links-barraNav a {
+    text-decoration: none;
+    color: white;
+}
+
+/*  */
+.inicio{
+    text-align: center;
+}

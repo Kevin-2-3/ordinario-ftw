@@ -11,6 +11,12 @@ body {
     color: white;
 }
 
+.content-with-fixed-nav {
+    padding-top: 100px;
+}
+
+
+
 /* barra de navegacion */
 
 header {
@@ -27,6 +33,13 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+}
+.principal h1{
+    font-size: 45px;
+}
+
+.principal p{
+    font-size: 25px;
 }
 
 .logo {
@@ -59,7 +72,7 @@ header {
     margin: 10px;  
 }
 
-#boton-comprar{
+.boton-comprar{
     padding: 10px 30px;
     color: rgb(255, 255, 255);
     border: none;
@@ -69,7 +82,7 @@ header {
     margin: 10px 10px 10px 10px;  
 }
 
-#boton-comprar:hover{
+.boton-comprar:hover{
     background: #222;
 }
 
@@ -91,18 +104,22 @@ header {
     flex-direction: row;
     align-items: center;
     gap: 30px;
-    justify-content: space-between;
+    justify-content:right;
 }
 
 img {
     margin-top: 100px;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 #telefono-img{
     height: 500px;
 }
 
+#texto-rendimiento{
+    /*  */
+}
 #rendimiento-imagen{
     height: 350px;
     width: 480px;
@@ -114,3 +131,6 @@ footer {
     text-align: center;
     padding: 15;
 }
+
+/* Carrito de compras */
+

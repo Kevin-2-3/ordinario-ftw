@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-.content-with-fixed-nav {
+.body-index {
     padding-top: 100px;
 }
 
@@ -108,7 +108,7 @@ header {
 }
 
 img {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -130,6 +130,7 @@ footer {
     background: black;
     text-align: center;
     padding: 15;
+    
 }
 
 /* Carrito de compras */

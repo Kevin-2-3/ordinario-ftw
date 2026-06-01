@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carritoCompras>
+    
+    <producto>
+        <nombre>Lnyx Lx1</nombre>
+        <cantidad>1</cantidad>
+        <modelo>LNX-NX2026</modelo>
+        <precioUnitario>8499</precioUnitario>
+        <color>Negro</color>
+    </producto>
+
+    <producto>
+        <nombre>Lnyx Edge Pro</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-EP15</modelo>
+        <precioUnitario>11299</precioUnitario>
+        <color>Azul Titanio</color>
+    </producto>
+
+    <producto>
+        <nombre>Lnyx Air Lite</nombre>
+        <cantidad>1</cantidad>
+        <modelo>LNX-AL10</modelo>
+        <precioUnitario>6799</precioUnitario>
+        <color>Blanco</color>
+    </producto>
+
+    <producto>
+        <nombre>Cargador Lnyx FastCharge 45W</nombre>
+        <cantidad>1</cantidad>
+        <modelo>LNX-C45</modelo>
+        <precioUnitario>599</precioUnitario>
+        <color>Blanco</color>
+    </producto>
+
+    <producto>
+        <nombre>Audífonos Lnyx SoundPods</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-SPRO</modelo>
+        <precioUnitario>1299</precioUnitario>
+        <color>Negro</color>
+    </producto>
+
+</carritoCompras>

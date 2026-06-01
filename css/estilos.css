@@ -86,7 +86,12 @@ header {
     gap: 20px;
 }
 
-#texto-telefono p{
+#rendimiento-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
 }
 
 img {
@@ -99,7 +104,8 @@ img {
 }
 
 #rendimiento-imagen{
-    height: 500px;
+    height: 350px;
+    width: 480px;
 }
 
 /* pie de pagina */

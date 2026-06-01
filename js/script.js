@@ -1,4 +1,4 @@
-// Cargar barra navegacion
+// Cargar barra navegacion y el pie de pagina "heredados"
 fetch("../recursos/barraNavegacion.html")
     .then(response => response.text())
     .then(data => {

@@ -60,7 +60,7 @@ header {
 
 /*seccion principal*/
 .principal {
-    background-image: url(/recursos/telefono-principal.png);
+    background-image: url(../recursos/telefono-principal.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

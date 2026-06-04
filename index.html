@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lnyx Mobile</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body >
-
-    <div id="barraNavegacion"></div>
-
-    <section class="principal">
-        <div>
-        <h1 >Lo importante, eres tu</h1>
+<body>
+    <div class="login">
+        <label for="nombre"><b>Nombre de usuario</b></label>
+    
+        <input type="text" placeholder="introduce tu nombre" name="uname" required>
         <br>
-        <p>Descubre nuestro nuevo LX1</p>
-        <button onclick="window.location.href='telefono-principal.html'" id="boton-comprarPrincipal" class="boton-comprar">Comprar ahora</button>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            
-        </div>
-    </section>
-
-    <div id="piePagina"></div>
-    <script src="../js/script.js"></script>
+        <label for="contraseña"><b>Password</b></label>
+        <input type="contraseña" placeholder="Introduce tu contraseña" name="contraseña" required>
+        <br>
+        <button onclick="window.location.href='/html/feed.html'"type="entrar-login">Login</button>
+  </div>
 </body>
 </html>

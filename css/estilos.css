@@ -117,9 +117,6 @@ img {
     height: 500px;
 }
 
-#texto-rendimiento{
-    /*  */
-}
 #rendimiento-imagen{
     height: 350px;
     width: 480px;
@@ -132,6 +129,13 @@ footer {
     padding: 15;
     
 }
+
+/*Login*/
+.login{
+    text-align: center;
+}
+
+
 
 /* Carrito de compras */
 

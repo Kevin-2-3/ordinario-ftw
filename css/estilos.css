@@ -129,7 +129,6 @@ header {
     margin-bottom: 20px;
 }
 
-
 /* pagina producto principal */
 .pagina-producto { 
     padding-top: 80px;
@@ -308,6 +307,7 @@ header {
 
 .accesorio-item:hover {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+    transform: translateY(-10px);
 }
 
 .accesorio-item img {
@@ -349,7 +349,6 @@ header {
     font-size: 1.1em;
 }
 
-
 /* telefonos  */
 
 .seccion-telefonos {
@@ -366,8 +365,58 @@ header {
     gap: 30px;
     justify-content: center;
 }
-  
 
+.telefono-item-catalogo {
+    background: #282a2b;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.telefono-item-catalogo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.telefono-item-catalogo img {
+    max-width: 100%;
+    height: 250px; 
+    object-fit: contain; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 0; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+}
+
+.telefono-item-catalogo h3 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.telefono-item-catalogo .precio {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #00c3ff;
+    margin-bottom: 15px;
+}
+
+.telefono-item-catalogo .mini-descripcion {
+    font-size: 1em;
+    color: #bbb;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.telefono-item-catalogo .boton-comprar {
+    width: 100%;
+    font-size: 1.1em;
+}
 
 /* login */
 
@@ -377,7 +426,6 @@ header {
     background-size: cover;
     height: 100vh; 
 }
-
 
 /* pie de pagina */
 footer {

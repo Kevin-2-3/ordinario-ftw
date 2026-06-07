@@ -15,8 +15,6 @@ body {
     padding-top: 100px;
 }
 
-
-
 /* barra de navegacion */
 
 header {
@@ -34,6 +32,18 @@ header {
     align-items: center;
     padding: 20px 50px;
 }
+
+.links-barraNav {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.links-barraNav a {
+    text-decoration: none;
+    color: white;
+}
+
 .principal h1{
     font-size: 45px;
 }
@@ -45,17 +55,6 @@ header {
 .logo {
     color: #00c3ff;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.links-barraNav {
-    display: flex;
-    list-style: none;
-    gap: 25px;
-}
-
-.links-barraNav a {
-    text-decoration: none;
-    color: white;
 }
 
 /*seccion principal*/
@@ -86,8 +85,62 @@ header {
     background: #222;
 }
 
+.destacados {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destacados h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #00c3ff;
+}
+
+.galeria-telefonos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 30px;
+}
+
+.telefono-item {
+    background: #282a2b;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.telefono-item img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.telefono-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.telefono-item p {
+    font-size: 1em;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+
+/* login */
+
+.login {
+    background-image: url(../recursos/fondo-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+
 /* pagina de el telefono principal */
- #telefono-s{ 
+#telefono-s{ 
     text-align: center;
     align-items: center;
     display: flex;
@@ -121,6 +174,8 @@ img {
     height: 350px;
     width: 480px;
 }
+
+
 
 /* pie de pagina */
 footer {

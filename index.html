@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <section>
-        <div class="login">
-            <img src="recursos/user-icono.png" height="300" width="300" alt="icono de usuario ">
-            <br>
-            <label for="nombre"><b>Nombre de usuario</b></label>
-            <input type="text" placeholder="introduce tu nombre" name="uname" required>
-            <br>
-            <label for="contraseña"><b>Password</b></label>
-            <input type="contraseña" placeholder="Introduce tu contraseña" name="contraseña" required>
-            <br>
-            <button onclick="window.location.href='html/feed.html'" class="boton-comprar">Login</button>
-        </div>
-  </section>
+    <main>
+        <section>
+            <div class="login">
+                <img src="recursos/user-icono.png" height="300" width="300" alt="icono de usuario ">
+                <br>
+                <label for="username"><b>Nombre de usuario</b></label>
+                <input type="text" id="username" placeholder="introduce tu nombre" required>
+                <br>
+                <label for="password"><b>Password</b></label>
+                <input type="password" id="password" placeholder="Introduce tu contraseña" name="contraseña" required>
+                <br>
+                <button onclick="window.location.href='html/feed.html'" class="boton-comprar">Login</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

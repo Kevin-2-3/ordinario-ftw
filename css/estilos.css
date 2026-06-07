@@ -130,6 +130,141 @@ header {
 }
 
 
+/* pagina producto principal */
+.pagina-producto { 
+    padding-top: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.vista-general-producto { 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #333;
+    margin-bottom: 40px;
+}
+
+.imagen-producto { 
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.imagen-producto img {
+    max-width: 100%;
+    height: auto;
+    max-height: 550px; 
+    object-fit: contain; 
+    margin: 0; 
+}
+
+.info-producto { 
+    flex: 2;
+    min-width: 350px; /
+}
+
+.info-producto h1 {
+    font-size: 3.5em;
+    color: #00c3ff;
+    margin-bottom: 10px;
+}
+
+.info-producto h2 {
+    font-size: 2em;
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+.info-producto .precio { 
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.info-producto .descripcion { 
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.info-producto .boton-comprar {
+    padding: 15px 40px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.especs-mini { 
+    background: #282a2b;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.especs-mini h3 {
+    color: #00c3ff;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.especs-mini ul {
+    list-style: none;
+    padding: 0;
+}
+
+.especs-mini li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #444;
+    color: #ddd;
+}
+
+.especs-mini li:last-child {
+    border-bottom: none;
+}
+
+.detalles-producto { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.bloque-detalle { 
+    background: #282a2b;
+    border-radius: 10px;
+    padding: 30px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%; 
+}
+
+.bloque-detalle h2 {
+    color: #00c3ff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.bloque-detalle p {
+    color: #bbb;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bloque-detalle img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
 /* login */
 
 .login {
@@ -138,43 +273,6 @@ header {
     background-size: cover;
     height: 100vh; 
 }
-
-/* pagina de el telefono principal */
-#telefono-s{ 
-    text-align: center;
-    align-items: center;
-    display: flex;
-}
-
-#telefono-div{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-#rendimiento-div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    justify-content:right;
-}
-
-img {
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-#telefono-img{
-    height: 500px;
-}
-
-#rendimiento-imagen{
-    height: 350px;
-    width: 480px;
-}
-
 
 
 /* pie de pagina */
@@ -190,7 +288,4 @@ footer {
     text-align: center;
 }
 
-
-
-/* Carrito de compras */
 

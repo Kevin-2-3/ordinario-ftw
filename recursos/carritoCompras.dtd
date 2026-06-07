@@ -1,0 +1,9 @@
+<!ELEMENT carritoCompras (producto+)>
+
+<!ELEMENT producto (nombre, cantidad, modelo, precioUnitario, color)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT precioUnitario (#PCDATA)>
+<!ELEMENT color (#PCDATA)>

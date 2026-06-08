@@ -3,7 +3,7 @@
 <carritoCompras>
     
     <producto>
-        <nombre>Lnyx Lx1</nombre>
+        <nombre>Telefono Lnyx Lx1</nombre>
         <cantidad>1</cantidad>
         <modelo>LNX-NX2026</modelo>
         <precioUnitario>8499</precioUnitario>
@@ -11,7 +11,7 @@
     </producto>
 
     <producto>
-        <nombre>LFold</nombre>
+        <nombre>Telefono LFold</nombre>
         <cantidad>2</cantidad>
         <modelo>LNX-EP15</modelo>
         <precioUnitario>19998</precioUnitario>
@@ -19,7 +19,7 @@
     </producto>
 
     <producto>
-        <nombre>Lnx Start</nombre>
+        <nombre>Telefono Lnx Start</nombre>
         <cantidad>10</cantidad>
         <modelo>LNX-ASTRT</modelo>
         <precioUnitario>2599</precioUnitario>
@@ -59,11 +59,171 @@
     </producto>
 
     <producto>
-        <nombre>LX2u</nombre>
+        <nombre>Telefono LX2u</nombre>
         <cantidad>1</cantidad>
         <modelo>LNX-NS1S</modelo>
         <precioUnitario>21999</precioUnitario>
         <color>Negro Galaxy</color>
+    </producto>
+
+        <producto>
+        <nombre>Telefono Lnyx Pro Max</nombre>
+        <cantidad>1</cantidad>
+        <modelo>LNX-PMAX26</modelo>
+        <precioUnitario>16499</precioUnitario>
+        <color>Negro Titanio</color>
+    </producto>
+
+    <producto>
+        <nombre>Telefono Lnyx Mini</nombre>
+        <cantidad>4</cantidad>
+        <modelo>LNX-MINI5</modelo>
+        <precioUnitario>6999</precioUnitario>
+        <color>Rosa Coral</color>
+    </producto>
+
+    <producto>
+        <nombre>Funda Protectora Lnyx LX1</nombre>
+        <cantidad>5</cantidad>
+        <modelo>LNX-FLX1</modelo>
+        <precioUnitario>349</precioUnitario>
+        <color>Transparente</color>
+    </producto>
+
+    <producto>
+        <nombre>Protector de Pantalla Lnyx Glass</nombre>
+        <cantidad>8</cantidad>
+        <modelo>LNX-GLS9H</modelo>
+        <precioUnitario>249</precioUnitario>
+        <color>Cristal Claro</color>
+    </producto>
+
+    <producto>
+        <nombre>Cargador Inalambrico Lnyx 20W</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-WCH20</modelo>
+        <precioUnitario>799</precioUnitario>
+        <color>Negro Mate</color>
+    </producto>
+
+    <producto>
+        <nombre>Audifonos Lnyx Bass Pro</nombre>
+        <cantidad>3</cantidad>
+        <modelo>LNX-BPRO</modelo>
+        <precioUnitario>1899</precioUnitario>
+        <color>Azul Marino</color>
+    </producto>
+
+    <producto>
+        <nombre>Telefono Lnyx Neo 5G</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-NEO5G</modelo>
+        <precioUnitario>11299</precioUnitario>
+        <color>Verde Aurora</color>
+    </producto>
+
+    <producto>
+        <nombre>Smartwatch Lnyx Active</nombre>
+        <cantidad>4</cantidad>
+        <modelo>LNX-SWA1</modelo>
+        <precioUnitario>2999</precioUnitario>
+        <color>Negro Carbon</color>
+    </producto>
+
+    <producto>
+        <nombre>Bocina Bluetooth Lnyx SoundBox</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-SBOX</modelo>
+        <precioUnitario>1399</precioUnitario>
+        <color>Rojo Lava</color>
+    </producto>
+
+    <producto>
+        <nombre>Cable USB-C a USB-C Lnyx</nombre>
+        <cantidad>6</cantidad>
+        <modelo>LNX-CUSBC2</modelo>
+        <precioUnitario>249</precioUnitario>
+        <color>Blanco Perla</color>
+    </producto>
+
+    <producto>
+        <nombre>Telefono Lnyx Vision Ultra</nombre>
+        <cantidad>1</cantidad>
+        <modelo>LNX-VULTRA</modelo>
+        <precioUnitario>24999</precioUnitario>
+        <color>Dorado Premium</color>
+    </producto>
+
+    <producto>
+        <nombre>Memoria MicroSD 128GB Lnyx</nombre>
+        <cantidad>7</cantidad>
+        <modelo>LNX-MSD128</modelo>
+        <precioUnitario>499</precioUnitario>
+        <color>Negro-Rojo</color>
+    </producto>
+
+    <producto>
+        <nombre>Adaptador USB-C a Jack 3.5mm</nombre>
+        <cantidad>5</cantidad>
+        <modelo>LNX-AD35</modelo>
+        <precioUnitario>179</precioUnitario>
+        <color>Gris Espacial</color>
+    </producto>
+
+    <producto>
+        <nombre>Telefono Lnyx Compact</nombre>
+        <cantidad>3</cantidad>
+        <modelo>LNX-CMPT</modelo>
+        <precioUnitario>5499</precioUnitario>
+        <color>Azul Oceano</color>
+    </producto>
+
+    <producto>
+        <nombre>Tripie Selfie Lnyx Extend</nombre>
+        <cantidad>4</cantidad>
+        <modelo>LNX-SELFIEX</modelo>
+        <precioUnitario>399</precioUnitario>
+        <color>Negro</color>
+    </producto>
+
+    <producto>
+        <nombre>Cargador para Auto Lnyx Dual USB</nombre>
+        <cantidad>3</cantidad>
+        <modelo>LNX-CAUTO2</modelo>
+        <precioUnitario>299</precioUnitario>
+        <color>Negro Metalico</color>
+    </producto>
+
+    <producto>
+        <nombre>Telefono Lnyx Gamer X</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-GMRX</modelo>
+        <precioUnitario>18999</precioUnitario>
+        <color>Rojo Neon</color>
+    </producto>
+
+    <producto>
+        <nombre>Power Bank Lnyx 20000 mAh</nombre>
+        <cantidad>5</cantidad>
+        <modelo>LNX-PWB20</modelo>
+        <precioUnitario>999</precioUnitario>
+        <color>Gris Titanio</color>
+    </producto>
+
+    <producto>
+        <nombre>Soporte Magnetico para Auto</nombre>
+        <cantidad>6</cantidad>
+        <modelo>LNX-SMAG</modelo>
+        <precioUnitario>219</precioUnitario>
+        <color>Negro</color>
+    </producto>
+
+    <producto>
+        <nombre>Telefono Lnyx Air Lite</nombre>
+        <cantidad>4</cantidad>
+        <modelo>LNX-ARLITE</modelo>
+        <precioUnitario>8299</precioUnitario>
+        <color>Blanco Lunar</color>
     </producto>
 
 </carritoCompras>

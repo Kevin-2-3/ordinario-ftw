@@ -8,25 +8,30 @@
 </head>
 <body>
     <div id="barraNavegacion"></div>
-      <main>
-          <section class="seccion-carrito" style="margin-top: 100px;">
-              <h1 class="titulo-carrito">Tu Carrito de Compras</h1>
-              <p class="descripcion-carrito">Producto agregado al carrito. Revisa los detalles antes de completar tu compra</p>
+        <main>
+            <section class="seccion-carrito" style="margin-top: 100px;">
+                <h1 class="titulo-carrito">Tu Carrito de Compras</h1>
+                <p class="descripcion-carrito">Producto agregado al carrito. Revisa los detalles antes de completar tu compra</p>
               
-              <button onclick="cargar()" class="boton-comprar">Cargar datos del Carrito</button>
+                <button onclick="cargar()" class="boton-comprar">Cargar datos del Carrito</button>
+                
+                <div class="contenedor-filtro">
+                    <label for="filtroProducto">Filtrar por nombre de producto:</label>
+                    <input type="text" id="filtroProducto" onkeyup="filtrarProductos()" placeholder="Escribe para buscar..." class="input-filtro">
+                </div> 
               
-              <div class="contenedor-tabla-carrito">
-                  <table id="tablaCarrito" border="1" class="tabla-carrito"></table>
-              </div>
+                <div class="contenedor-tabla-carrito">
+                    <table id="tablaCarrito" border="1" class="tabla-carrito"></table>
+                </div>
               
-              <div class="resumen-carrito">
-                  <div class="total-carrito">Total: <span id="totalMonto">$0</span></div>
-                  <div class="acciones-carrito">
-                      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="boton-comprar">Finalizar Compra</a>
-                  </div>
-              </div>
-          </section>
-      </main>
+                <div class="resumen-carrito">
+                    <div class="total-carrito">Total: <span id="totalMonto">$0</span></div>
+                     <div class="acciones-carrito">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="boton-comprar">Finalizar Compra</a>
+                    </div>
+                </div>
+            </section>
+        </main>
     <div id="piePagina"></div>
     <script src="../js/script.js"></script>
 </body>

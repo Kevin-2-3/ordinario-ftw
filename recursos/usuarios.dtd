@@ -1,0 +1,6 @@
+<!ELEMENT usuarios (usuario+)>
+
+<!ELEMENT usuario (nombre, contraseña)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contraseña (#PCDATA)>

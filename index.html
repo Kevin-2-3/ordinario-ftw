@@ -7,20 +7,24 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <main>
-        <section>
-            <div class="login">
-                <img src="recursos/user-icono.png" height="300" width="300" alt="icono de usuario ">
-                <br>
-                <label for="username"><b>Nombre de usuario</b></label>
-                <input type="text" id="username" placeholder="introduce tu nombre" required>
-                <br>
-                <label for="password"><b>Password</b></label>
-                <input type="password" id="password" placeholder="Introduce tu contraseña" name="contraseña" required>
-                <br>
-                <button onclick="window.location.href='html/feed.html'" class="boton-comprar">Login</button>
+    <main class="login">
+        <section class="seccion-login">
+            <div class="formulario-login"> 
+                <img src="recursos/user-icono.png" height="150" width="150" alt="icono de usuario"> 
+                <h2>Iniciar Sesión</h2>
+                <div class="campo-login">
+                    <label for="username"><b>Nombre de usuario</b></label>
+                    <input type="text" id="username" placeholder="Introduce tu nombre" required>
+                </div>
+                <div class="campo-login">
+                    <label for="password"><b>Contraseña</b></label>
+                    <input type="password" id="password" placeholder="Introduce tu contraseña" required>
+                </div>
+                <button type="button" onclick="verificarLogin()" class="boton-comprar">Login</button>
+                <p id="mensajeError" class="mensaje-error"></p> 
             </div>
         </section>
     </main>
+    <script src="../js/script.js"></script>
 </body>
 </html>

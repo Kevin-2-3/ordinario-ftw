@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario>
+        <nombre>admi</nombre>
+        <contraseña>1234</contraseña>
+    </usuario>
+    <usuario>
+        <nombre>profe</nombre>
+        <contraseña>5678</contraseña>
+    </usuario>
+    <usuario>
+        <nombre>invitado</nombre>
+        <contraseña>0000</contraseña>
+    </usuario>
+</usuarios>

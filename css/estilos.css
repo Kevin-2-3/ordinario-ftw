@@ -425,7 +425,62 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh; 
+    text-align: center;
+    align-items: center;
 }
+
+.seccion-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.formulario-login {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    max-width: 400px;
+    width: 90%; 
+}
+
+.formulario-login img {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.campo-login {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.campo-login label {
+    display: block; 
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #eee;
+}
+
+.mensaje-error {
+    color: #ff6b6b;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+.campo-login input[type="text"],
+.campo-login input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #00c3ff;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
 
 /* Carrito d compras */
 
@@ -484,6 +539,35 @@ header {
     flex-wrap: wrap; 
 }
 
+.contenedor-filtro {
+    margin-bottom: 30px;
+    text-align: left; 
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-filtro label {
+    display: block;
+    margin-bottom: 10px;
+    color: #eee;
+}
+
+.input-filtro {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #00c3ff;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+.input-filtro::placeholder {
+    color: #aaa;
+}
+
+
 /* sobre */
 .seccion-sobre-nosotros {
     padding-top: 80px; 
@@ -541,8 +625,6 @@ header {
     margin-bottom: 15px;
 }
 
-
-
 /* pie de pagina */
 footer {
     background: black;
@@ -551,9 +633,163 @@ footer {
     
 }
 
-/*Login*/
-.login{
-    text-align: center;
+/* Media queries */
+@media (max-width: 992px) {
+    .barraNavegacion {
+        flex-direction: column; 
+        padding: 15px 20px;
+        align-items: center;
+    }
+    .links-barraNav {
+        margin-top: 15px;
+        flex-direction: column; 
+        gap: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .links-barraNav li {
+        width: 100%; 
+    }
+    .links-barraNav a {
+        padding: 8px 0;
+        display: block;
+        background-color: #222; 
+        border-radius: 5px;
+    }
+    .links-barraNav a:hover {
+        background-color: #333;
+    }
+
+    .principal h1 {
+        font-size: 3em;
+    }
+    .principal p {
+        font-size: 1.5em;
+    }
+    .destacados h2 {
+        font-size: 2em;
+    }
+    .galeria-telefonos { 
+        flex-direction: column;
+        align-items: center;
+    }
+    .telefono-item {
+        width: 90%; 
+        max-width: 350px;
+    }
+
+    .vista-general-producto {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-producto {
+        min-width: auto; 
+        padding: 0 15px; 
+    }
+    .info-producto h1 {
+        font-size: 2.8em;
+    }
+    .info-producto h2 {
+        font-size: 1.8em;
+    }
+    .info-producto .precio {
+        font-size: 2.2em;
+    }
+    .info-producto .description {
+        font-size: 1em;
+    }
+    .detalles-producto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-seccion {
+        font-size: 2.5em;
+    }
+    .descripcion-seccion {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+    .galeria-accesorios,
+    .galeria-telefonos-catalogo {
+        grid-template-columns: 1fr;
+    }
+    .accesorio-item,
+    .telefono-item-catalogo {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accesorio-item img,
+    .telefono-item-catalogo img {
+        height: 180px; 
+    }
+
+    .seccion-carrito {
+        padding-top: 80px;
+        padding: 15px; 
+    }
+    .titulo-carrito {
+        font-size: 2.5em;
+    }
+    .descripcion-carrito {
+        font-size: 0.9em;
+    }
+    .tabla-carrito th, .tabla-carrito td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+    .total-carrito {
+        font-size: 1.5em;
+    }
+    .acciones-carrito {
+        flex-direction: column; 
+        align-items: stretch; 
+        gap: 10px;
+    }
+    .acciones-carrito .boton-comprar,
+    .acciones-carrito .boton-continuar-compra {
+        width: 100%;
+    }
+
+    .contenido-sobre-nosotros {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+    .bloque-historia h2,
+    .bloque-mision-vision h2,
+    .bloque-valores h2 {
+        font-size: 1.8em;
+    }
+    .bloque-historia p,
+    .bloque-mision-vision p,
+    .bloque-valores p,
+    .bloque-valores li {
+        font-size: 1em;
+    }
+
+    .formulario-login-contenedor {
+        padding: 30px 20px; 
+        max-width: 95%; 
+    }
+    .formulario-login-contenedor img {
+        height: 120px;
+        width: 120px;
+    }
+    .formulario-login-contenedor h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .campo-login label {
+        font-size: 1em;
+    }
+    .campo-login input[type="text"],
+    .campo-login input[type="password"] {
+        padding: 10px 12px;
+        font-size: 0.95em;
+    }
+    .formulario-login-contenedor .boton-comprar {
+        padding: 12px;
+        font-size: 1.1em;
+    }
 }
-
-

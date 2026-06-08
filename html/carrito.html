@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrito de Compras</title>
-  <link rel="stylesheet" href="../css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lnyx Mobile - Carrito de Compras</title>
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-  <div id="barraNavegacion"></div>
-  <section class="venta"></section>
-  <div class="venta">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h1>Carrito de Compras</h1>
-    <p>Producto agregado al carrito. Revisa los detalles antes de completar con su compra</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Producto</th>
-          <th>Cantidad</th>
-          <th>Modelo</th>
-          <th>Precio</th>
-          <th>Color</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="producto-nombre">Telefono Nombre obtenido en xml</td>
-          <td class="cantidad">1</td>
-          <td class="modelo">modelo</td>
-          <td class="precio1">$5</td>
-          <td class="Color"> Color de producto</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="total">Total: $5</div>
-    <br>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn">Continuar compra</a>
-  </div>
-
-  <div id="piePagina"></div>
-  <script src="../js/script.js"></script>
+    <div id="barraNavegacion"></div>
+      <main>
+          <section class="seccion-carrito" style="margin-top: 100px;">
+              <h1 class="titulo-carrito">Tu Carrito de Compras</h1>
+              <p class="descripcion-carrito">Producto agregado al carrito. Revisa los detalles antes de completar tu compra</p>
+              
+              <button onclick="cargar()" class="boton-comprar">Cargar datos del Carrito</button>
+              
+              <div class="contenedor-tabla-carrito">
+                  <table id="tablaCarrito" border="1" class="tabla-carrito"></table>
+              </div>
+              
+              <div class="resumen-carrito">
+                  <div class="total-carrito">Total: <span id="totalMonto">$0</span></div>
+                  <div class="acciones-carrito">
+                      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="boton-comprar">Finalizar Compra</a>
+                  </div>
+              </div>
+          </section>
+      </main>
+    <div id="piePagina"></div>
+    <script src="../js/script.js"></script>
 </body>
 </html>

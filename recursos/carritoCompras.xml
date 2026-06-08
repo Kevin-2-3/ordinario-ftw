@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE carritoCompras SYSTEM "carrito.dtd">
+<!DOCTYPE carritoCompras SYSTEM "carritoCompras.dtd">
 <carritoCompras>
     
     <producto>
@@ -7,23 +7,31 @@
         <cantidad>1</cantidad>
         <modelo>LNX-NX2026</modelo>
         <precioUnitario>8499</precioUnitario>
-        <color>Negro</color>
+        <color>Azul Estelar</color>
     </producto>
 
     <producto>
-        <nombre>Lnyx Edge Pro</nombre>
+        <nombre>LFold</nombre>
         <cantidad>2</cantidad>
         <modelo>LNX-EP15</modelo>
-        <precioUnitario>11299</precioUnitario>
-        <color>Azul Titanio</color>
+        <precioUnitario>19998</precioUnitario>
+        <color>Plata Plateado</color>
     </producto>
 
     <producto>
-        <nombre>Lnyx Air Lite</nombre>
-        <cantidad>1</cantidad>
-        <modelo>LNX-AL10</modelo>
-        <precioUnitario>6799</precioUnitario>
-        <color>Blanco</color>
+        <nombre>Lnx Start</nombre>
+        <cantidad>10</cantidad>
+        <modelo>LNX-ASTRT</modelo>
+        <precioUnitario>2599</precioUnitario>
+        <color>Blanco Nieve</color>
+    </producto>
+
+    <producto>
+        <nombre>Cable USB-C Reforzado</nombre>
+        <cantidad>2</cantidad>
+        <modelo>LNX-CUSB4</modelo>
+        <precioUnitario>199</precioUnitario>
+        <color>Negro-Azul</color>
     </producto>
 
     <producto>
@@ -40,6 +48,22 @@
         <modelo>LNX-SPRO</modelo>
         <precioUnitario>1299</precioUnitario>
         <color>Negro</color>
+    </producto>
+
+    <producto>
+        <nombre>Power Bank Lnyx 10001 mAh</nombre>
+        <cantidad>3</cantidad>
+        <modelo>LNX-PWB1</modelo>
+        <precioUnitario>599</precioUnitario>
+        <color>Azul</color>
+    </producto>
+
+    <producto>
+        <nombre>LX2u</nombre>
+        <cantidad>1</cantidad>
+        <modelo>LNX-NS1S</modelo>
+        <precioUnitario>21999</precioUnitario>
+        <color>Negro Galaxy</color>
     </producto>
 
 </carritoCompras>

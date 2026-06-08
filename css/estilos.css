@@ -129,7 +129,7 @@ header {
     margin-bottom: 20px;
 }
 
-/* pagina producto principal */
+/* pagina lx1 */
 .pagina-producto { 
     padding-top: 80px;
     max-width: 1200px;
@@ -276,7 +276,7 @@ header {
     font-size: 3.5em;
     color: #00c3ff;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .descripcion-seccion {
@@ -426,6 +426,10 @@ header {
     background-size: cover;
     height: 100vh; 
 }
+
+/* Carrito d compras */
+
+
 
 /* pie de pagina */
 footer {

@@ -429,6 +429,60 @@ header {
 
 /* Carrito d compras */
 
+.seccion-carrito {
+    padding-top: 100px; 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-tabla-carrito {
+    overflow-x: auto; 
+    margin-bottom: 30px;
+}
+
+.titulo-carrito {
+    font-size: 3.5em;
+    color: #00c3ff;
+}
+
+.descripcion-carrito {
+    font-size: 1.1em;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.tabla-carrito {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #282a2b;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.tabla-carrito th, .tabla-carrito td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: left;
+    color: white;
+}
+
+.tabla-carrito thead th {
+    background-color: #000000;
+    color: #00c3ff;
+    font-weight: bold;
+}
+
+.total-carrito {
+    color: #00c3ff;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.acciones-carrito {
+    flex-wrap: wrap; 
+}
 
 
 /* pie de pagina */

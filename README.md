@@ -1,3 +1,5 @@
+Contraseña "admi" Contraseña "1234"
+
 # Proyecto: Fundamentos de tecnologias web
 
 Mediante el siguiente proyecto se busca dar a conocer los conocimientos aprendidos a lo largo de la experiencia educativa por medio del uso de las prinicipales tecnologias web:
